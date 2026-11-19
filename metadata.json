@@ -1,0 +1,6 @@
+{
+  "name": "ANOCLIX",
+  "description": "Minimal, precision auto-clicker and CPS benchmark utility designed for iPhone.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

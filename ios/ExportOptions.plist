@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Change method to "ad-hoc" or "development" for direct device IPA distribution, or keep "app-store-connect" for TestFlight/App Store -->
+	<key>method</key>
+	<string>app-store-connect</string>
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>uploadSymbols</key>
+	<true/>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+	<!-- Replace YOUR_APPLE_TEAM_ID before running CLI xcodebuild -exportArchive -->
+	<!-- <key>teamID</key> -->
+	<!-- <string>YOUR_APPLE_TEAM_ID</string> -->
+</dict>
+</plist>

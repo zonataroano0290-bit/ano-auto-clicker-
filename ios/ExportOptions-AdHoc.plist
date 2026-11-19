@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Use "ad-hoc" or "development" to export a standard non-Store IPA suitable for device install or ESign re-signing -->
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+	<key>compileBitcode</key>
+	<false/>
+	<!-- Replace YOUR_APPLE_TEAM_ID before running CLI xcodebuild -exportArchive -->
+	<!-- <key>teamID</key> -->
+	<!-- <string>YOUR_APPLE_TEAM_ID</string> -->
+</dict>
+</plist>
